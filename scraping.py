@@ -64,9 +64,9 @@ def slack_send(df):
 
 
     #botの情報をもっている
-    TOKEN="xoxb-2897157072481-2876039072567-4nuFoctNS9F7b0kLaJ7Bnkdy"
+    TOKEN="(botのToken)"
     #ワークスペースの情報をもっている
-    CHANNEL = "C02RXH5K71T"
+    CHANNEL = "(ワークスペースのid)"
 
     files = {
         "file":open("test.csv", encoding="utf8", errors='ignore')
